@@ -71,12 +71,13 @@ function getInstrSidebar() {
     	title: 'Instruction',
 	collapsable: false,
 	children:[
-	 ''
+	 ['','Introduction']
 	]
     },
 	    {
             title: 'A',
             collapsable: false,
+	    path:'/instruction/',
             children: [
                 'aaa',
                 'aad',
