@@ -5,7 +5,7 @@ set -ev
 
 # setup git
 git config --global user.name tizee-bot
-git config --global user.email nobody@nobody.org
+git config --global user.email travis@travis-ci.org
 git config --global push.default simple
 
 # navigate to build output directory

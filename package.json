@@ -7,7 +7,7 @@
   },
   "scripts":{
   	"dev": "vuepress dev docs --temp .temp",
-	"build": "vuepress build docs --temp .temp",
+	"build": "vuepress build docs",
 	"help":"vuepress --help"
   }
 }
