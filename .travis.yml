@@ -1,8 +1,11 @@
 language: node_js
+
 node_js:
   - lts/*
+
 script:
   - npm run build
+
 deploy:
   provider: pages
   skip-cleanup: true
@@ -13,3 +16,8 @@ deploy:
   keep-history: true
   on:
     branch: master
+
+cache:
+  yarn: true
+  directories:
+  - node_modules
