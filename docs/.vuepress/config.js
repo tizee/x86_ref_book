@@ -1,7 +1,6 @@
 module.exports = {
     //=== basic configuration
     base: '/x86_ref_book_web/',
-    dest: '.vuepress/dist',
     title: 'x86 Instruction Set Reference',
     description: 'a web book of x86 instruction set reference based on vuepress',
     head: [
