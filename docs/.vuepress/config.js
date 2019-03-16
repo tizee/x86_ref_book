@@ -67,18 +67,12 @@ module.exports = {
 }
 
 function getInstrSidebar() {
-    return [{
-    	title: 'Instruction',
-	collapsable: false,
-	children:[
-	 ['','Introduction']
-	]
-    },
+    return [
 	    {
             title: 'A',
             collapsable: false,
-	    path:'/instruction/',
             children: [
+		 ['','Introduction'],
                 'aaa',
                 'aad',
                 'aas',

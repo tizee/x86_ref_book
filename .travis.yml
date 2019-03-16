@@ -13,6 +13,6 @@ after_success:
   - bash ./scripts/deploy.sh
 
 cache:
-  yarn: true
+  npm: true
   directories:
   - node_modules
