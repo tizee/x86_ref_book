@@ -33,7 +33,7 @@ module.exports = {
         },
         search: true,
         searchMaxSuggestions: 10,
-        //lastUpdated: 'Last Updated', // string | boolean
+        lastUpdated: 'Last Updated', // string | boolean
         // navbar links
         nav: [{
                 text: 'Instruction ref',
@@ -71,7 +71,7 @@ function getInstrSidebar() {
     	title: 'Instruction',
 	collapsable: false,
 	children:[
-	['','Introduction']
+	 ''
 	]
     },
 	    {
