@@ -16,3 +16,8 @@ cache:
   npm: true
   directories:
   - node_modules
+
+deploy:
+  skip_cleanup: true
+
+
