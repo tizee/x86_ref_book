@@ -14,9 +14,11 @@ cd docs/.vuepress/dist
 git init
 git add --all
 git commit -m ':books: auto deploy' > /dev/null 2>&1
-# push 
-git push -f -q "https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" HEAD:master > /dev/null 2>&1
 
 # list remote
-git remote -v
+echo ${GITHUB_REPO}
+
+# push 
+git push -f -q "https://${GITHUB_TOKEN}@github.com/${GITHUB_REPO}.git" HEAD:master > /dev/null 2>&1
+
 
