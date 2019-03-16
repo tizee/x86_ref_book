@@ -17,5 +17,5 @@ git init
 git add --all
 git commit -m ':books: auto deploy'
 # push 
-git push -q "https://$GITHUB_TOKEN@github.com/$TRAVIS_REPO_SLUG.git" HEAD:master
+git push -f -q "https://$GITHUB_TOKEN@github.com/$TRAVIS_REPO_SLUG.git" HEAD:master
 

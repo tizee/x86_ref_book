@@ -9,8 +9,8 @@ env:
 script:
   - npm run build
 
-after success:
-  - ./scripts/delpy.sh
+after_success:
+  - bash ./scripts/deploy.sh
 
 cache:
   yarn: true
