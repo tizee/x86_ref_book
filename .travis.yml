@@ -4,7 +4,7 @@ node_js:
   - lts/*
 
 env:
-  - TRAVIS_REPO_SLUG = LifeDrainFrog/x86_ref_book_web
+  - TRAVIS_REPO_SLUG = "LifeDrainFrog/x86_ref_book_web"
 
 script:
   - npm run build
@@ -16,8 +16,5 @@ cache:
   npm: true
   directories:
   - node_modules
-
-deploy:
-  skip_cleanup: true
 
 
