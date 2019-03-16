@@ -1,0 +1,13 @@
+{
+	"name": "x86 instruction reference",
+"description": "docs of x86 instruction",
+  "author": "Tizee",
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.44"
+  },
+  "scripts":{
+	"docs:dev":"vuepress dev docs",
+	"docs:build":"vuepress dev docs",
+	"help":"vuepress --help"
+  }
+}
