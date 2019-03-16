@@ -4,7 +4,8 @@ node_js:
   - lts/*
 
 env:
-  - TRAVIS_REPO_SLUG = "LifeDrainFrog/x86_ref_book_web"
+  global:
+    - TRAVIS_REPO_SLUG = "LifeDrainFrog/x86_ref_book_web"
 
 script:
   - npm run build
