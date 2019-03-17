@@ -57,7 +57,8 @@ module.exports = {
             }
         ],
         sidebar: {
-            '/instruction/': getInstrSidebar()
+            '/instruction/': getInstrSidebar(),
+	    '/':['']
         }
     },
     //=== Markdown,
@@ -72,7 +73,7 @@ function getInstrSidebar() {
             title: 'A',
             collapsable: false,
             children: [
-		 ['','Introduction'],
+		['','Introduction'],
                 'aaa',
                 'aad',
                 'aas',
@@ -524,6 +525,6 @@ function getInstrSidebar() {
                 'xorpd',
                 'xorps'
             ]
-        },
+        }
     ]
 }

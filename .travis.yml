@@ -8,6 +8,7 @@ env:
     - GITHUB_REPO: "LifeDrainFrog/x86_ref_book_web"
 
 script:
+  - npm install -D vuepress@next
   - npm run build
 
 after_success:
