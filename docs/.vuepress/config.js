@@ -71,7 +71,6 @@ function getInstrSidebar() {
 	    {
             title: 'A',
             collapsable: false,
-            path:'/instruction/',
             children: [
 		 ['','Introduction'],
                 'aaa',
