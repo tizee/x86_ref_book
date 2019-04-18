@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: Get Started →
-actionLink: /Instruction/
+actionLink: /instruction/
 footer: made by Tizee | powered by Vuepress 
 ---
 
