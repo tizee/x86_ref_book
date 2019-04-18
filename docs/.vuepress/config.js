@@ -20,7 +20,7 @@ module.exports = {
     serviceWorker: true,
     //=== default theme configuration
     themeConfig: {
-        repo: 'lifedrainfrog/x86_ref_book',
+        repo: 'tizee/x86_ref_book',
         docsDir: 'docs',
         docsBranch: 'master',
         editLinks: true,
@@ -36,7 +36,7 @@ module.exports = {
         lastUpdated: 'Last Updated', // string | boolean
         // navbar links
         nav: [{
-                text: 'Instruction ref',
+                text: 'Instruction List',
                 link: '/instruction/'
             },
             {
