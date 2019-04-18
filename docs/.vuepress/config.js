@@ -57,8 +57,8 @@ module.exports = {
             }
         ],
         sidebar: {
-            '/instruction/': getInstrSidebar(),
-	    '/':['']
+		'/instruction/':getInstrSidebar(),
+		'/':['']
         }
     },
     //=== Markdown,
