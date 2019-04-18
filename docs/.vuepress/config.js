@@ -83,7 +83,7 @@ module.exports = {
                 'bt',
                 'btc',
                 'btr',
-                'bts'
+                'bts',
                 'call',
                 'cbw_cwde',
                 'clc',
@@ -377,8 +377,8 @@ module.exports = {
                 'unpckhpd',
                 'unpckhps',
                 'unpcklpd',
-                'unpcklps'
-                'verr_verw'
+                'unpcklps',
+                'verr_verw',
                 'wait_fwait',
                 'wbinvd',
                  'xadd',
@@ -386,7 +386,7 @@ module.exports = {
                 'xlat_xlatb',
                 'xor',
                 'xorpd',
-                'xorps'
+                'xorps',
                'wrmsr'
 		],
 		'/':['']
