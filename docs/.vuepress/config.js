@@ -57,29 +57,8 @@ module.exports = {
             }
         ],
         sidebar: {
-		'/instruction/':getInstrSidebar(),
-		'/':['']
-        }
-    },
-    //=== Markdown,
-    markdown: {
-        lineNumbers: true // show line numbers of the code block,
-    }
-}
-
-function getInstrSidebar() {
-    return [
-	    {
-		    title: 'Intro',
-		    collapsable: false,
-		    children:[
-		    ''
-		    ]
-	    },
-	    {
-            title: 'A',
-            collapsable: false,
-            children: [
+		'/instruction/':[
+		    '',
                 'aaa',
                 'aad',
                 'aas',
@@ -96,14 +75,8 @@ function getInstrSidebar() {
                 'andnps',
                 'andpd',
                 'andps',
-                'arpl',
-            ]
-        },
-        {
-            title: 'B',
-            collapsable: false,
-            children: [
-                'bound',
+               'arpl',
+                 'bound',
                 'bsf',
                 'bsr',
                 'bswap',
@@ -111,12 +84,6 @@ function getInstrSidebar() {
                 'btc',
                 'btr',
                 'bts'
-            ]
-        },
-        {
-            title: 'C',
-            collapsable: false,
-            children: [
                 'call',
                 'cbw_cwde',
                 'clc',
@@ -160,12 +127,6 @@ function getInstrSidebar() {
                 'cvttsd2si',
                 'cvttss2si',
                 'cwd_cdq',
-            ]
-        },
-        {
-            title: 'D',
-            collapsable: false,
-            children: [
                 'daa',
                 'das',
                 'dec',
@@ -174,20 +135,8 @@ function getInstrSidebar() {
                 'divps',
                 'divsd',
                 'divss',
-            ]
-        },
-        {
-            title: 'E',
-            collapsable: false,
-            children: [
                 'emms',
                 'enter',
-            ]
-        },
-        {
-            title: 'F',
-            collapsable: false,
-            children: [
                 'f2xm1',
                 'fabs',
                 'fadd_faddp_fiadd',
@@ -241,23 +190,11 @@ function getInstrSidebar() {
                 'fxtract',
                 'fyl2x',
                 'fyl2xp1',
-            ]
-        },
-        {
-            title: 'H',
-            collapsable: false,
-            children: [
                 'haddpd',
                 'haddps',
                 'hlt',
                 'hsubpd',
                 'hsubps',
-            ]
-        },
-        {
-            title: 'I',
-            collapsable: false,
-            children: [
                 'idiv',
                 'imul',
                 'in',
@@ -267,20 +204,8 @@ function getInstrSidebar() {
                 'invd',
                 'invlpg',
                 'iret_iretd',
-            ]
-        },
-        {
-            title: 'J',
-            collapsable: false,
-            children: [
                 'jcc',
-                'jmp',
-            ]
-        },
-        {
-            title: 'L',
-            collapsable: false,
-            children: [
+               'jmp',
                 'lahf',
                 'lar',
                 'lddqu',
@@ -297,12 +222,6 @@ function getInstrSidebar() {
                 'loop_loopcc',
                 'lsl',
                 'ltr',
-            ]
-        },
-        {
-            title: 'M',
-            collapsable: false,
-            children: [
                 'maskmovdqu',
                 'maskmovq',
                 'maxpd',
@@ -353,32 +272,14 @@ function getInstrSidebar() {
                 'mulsd',
                 'mulss',
                 'mwait',
-            ]
-        },
-        {
-            title: 'N',
-            collapsable: false,
-            children: [
                 'neg',
                 'nop',
                 'not',
-            ]
-        },
-        {
-            title: 'O',
-            collapsable: false,
-            children: [
                 'or',
                 'orpd',
                 'orps',
                 'out',
                 'outs_outsb_outsw_outsd',
-            ]
-        },
-        {
-            title: 'P',
-            collapsable: false,
-            children: [
                 'packsswb_packssdw',
                 'packuswb',
                 'paddb_paddw_paddd',
@@ -428,12 +329,6 @@ function getInstrSidebar() {
                 'pusha_pushad',
                 'pushf_pushfd',
                 'pxor',
-            ]
-        },
-        {
-            title: 'R',
-            collapsable: false,
-            children: [
                 'rcl_rcr_rol_ror',
                 'rcpps',
                 'rcpss',
@@ -445,12 +340,6 @@ function getInstrSidebar() {
                 'rsm',
                 'rsqrtps',
                 'rsqrtss',
-            ]
-        },
-        {
-            title: 'S',
-            collapsable: false,
-            children: [
                 'sahf',
                 'sal_sar_shl_shr',
                 'sbb',
@@ -482,19 +371,6 @@ function getInstrSidebar() {
                 'subss',
                 'sysenter',
                 'sysexit',
-            ]
-        },
-        {
-            title: 'T',
-            collapsable: false,
-            children: [
-                'test'
-            ]
-        },
-        {
-            title: 'U',
-            collapsable: false,
-            children: [
                 'ucomisd',
                 'ucomiss',
                 'ud2',
@@ -502,35 +378,22 @@ function getInstrSidebar() {
                 'unpckhps',
                 'unpcklpd',
                 'unpcklps'
-            ]
-        },
-        {
-            title: 'V',
-            collapsable: false,
-            children: [
                 'verr_verw'
-            ]
-        },
-        {
-            title: 'W',
-            collapsable: false,
-            children: [
                 'wait_fwait',
                 'wbinvd',
-                'wrmsr'
-            ]
-        },
-        {
-            title: 'X',
-            collapsable: false,
-            children: [
-                'xadd',
+                 'xadd',
                 'xchg',
                 'xlat_xlatb',
                 'xor',
                 'xorpd',
                 'xorps'
-            ]
+               'wrmsr'
+		],
+		'/':['']
         }
-    ]
+    },
+    //=== Markdown,
+    markdown: {
+        lineNumbers: true // show line numbers of the code block,
+    }
 }
