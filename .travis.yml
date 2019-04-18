@@ -8,17 +8,12 @@ env:
     - GITHUB_REPO: "tizee/x86_ref_book_web"
 
 script:
-  - ls -l docs/.vuepress/config.js
-  - npm install -D vuepress@next
-  - ls -l docs/.vuepress/config.js
+  - cat docs/.vuepress/config.js
+  - npm install
   - npm run build
 
 after_success:
   - bash ./scripts/deploy.sh
 
-cache:
-  npm: true
-  directories:
-  - node_modules
 
 
