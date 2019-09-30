@@ -1,6 +1,6 @@
 # x86 Instruction Set Reference
 
-[![Build Status](https://travis-ci.com/LifeDrainFrog/x86_ref_book.svg?branch=master)](https://travis-ci.com/LifeDrainFrog/x86_ref_book)
+[![Build Status](https://travis-ci.com/tizee/x86_ref_book.svg?branch=master)](https://travis-ci.com/tizee/x86_ref_book)
 
 ## Introduction
 [The reference web](https://lifedrainfrog.github.io/x86_ref_book_web)
